@@ -384,6 +384,7 @@ const Links = ({ links, setLinks, vars, container, item, handleDownload }) => {
               variants={container}
               initial="hidden"
               animate="visible"
+              z
               className="flex flex-col gap-3"
             >
               <motion.section

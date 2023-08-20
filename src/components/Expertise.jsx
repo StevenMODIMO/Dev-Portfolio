@@ -1,9 +1,16 @@
 import React from "react";
-import { FaReact, FaLongArrowAltRight, FaServer } from "react-icons/fa";
+import {
+  FaReact,
+  FaLongArrowAltRight,
+  FaServer,
+  FaAppStore,
+} from "react-icons/fa";
 import { AiFillDatabase, AiOutlineApi } from "react-icons/ai";
 import { BsDatabaseAdd, BsGlobe } from "react-icons/bs";
 import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
+import { BiLogoPlayStore } from "react-icons/bi";
+import { FcAndroidOs } from "react-icons/fc";
 
 export default function Expertise({ theme }) {
   return (
@@ -92,6 +99,26 @@ export default function Expertise({ theme }) {
           </div>
         </motion.div>
       </section>
+
+      <main>
+        <h1 className="text-center font-bold text-3xl my-10">
+          Currently Learning!!
+        </h1>
+        <h1 className="text-center font-semibold text-xl mb-4">
+          Mobile App Design and Development.
+        </h1>
+        <div className="flex justify-center items-center space-x-4 text-4xl mt-6">
+          <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.1 }}>
+            <FaAppStore className="text-gray-500 hover:text-blue-500 transition-colors duration-300" />
+          </motion.div>
+          <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.1 }}>
+            <BiLogoPlayStore className="text-gray-500 hover:text-green-500 transition-colors duration-300" />
+          </motion.div>
+          <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.1 }}>
+            <FcAndroidOs className="text-gray-500 hover:text-green-500 transition-colors duration-300" />
+          </motion.div>
+        </div>
+      </main>
     </motion.div>
   );
 }
