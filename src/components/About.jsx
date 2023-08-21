@@ -9,7 +9,7 @@ import {
 import { ImNpm } from "react-icons/im";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import { BsFillTagFill } from "react-icons/bs"
+import { BsFillTagFill } from "react-icons/bs";
 
 export default function About() {
   return (
@@ -24,9 +24,13 @@ export default function About() {
                   .start();
               }}
             />
-            <span>
+            <motion.span
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 6 }}
+            >
               <AiOutlineCode />
-            </span>
+            </motion.span>
           </h1>
           <p className="text-3xl sm:text-4xl md:text-5xl md:mt-6">
             Welcome to my digital realm where creativity meets functionality.
