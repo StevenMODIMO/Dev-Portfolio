@@ -44,8 +44,7 @@ export default function About() {
         transition={{ delay: 0.2, ease: "easeInOut" }}
         className="flex flex-col items-center mt-32 sm:mt-40 lg:mx-80"
       >
-        <div className="flex items-center gap-4">
-          <img src={biko} alt="biko logo" className="rounded w-56 mb-8 mt" />
+        <div className="flex items-center gap-4 w-72 shadow-2xl rounded h-80 bg-[url('src/assets/999.png')] opacity-50">
         </div>
         <p className="text-2xl text-center lg:text-4xl">
           Hello, I'm <span className="font-thin">Steven Modimo</span>, a
