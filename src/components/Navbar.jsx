@@ -17,7 +17,7 @@ export default function Navbar({ theme, setTheme }) {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Steven_Modimo_Resume_11-08-2023-09-55-07.pdf";
+    link.href = "/Steven_Modimo_Resume_24-08-2023-13-10-17.pdf";
     link.download = "Steven_Modimo.pdf";
     link.click();
   };
