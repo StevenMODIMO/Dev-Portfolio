@@ -46,7 +46,7 @@ export default function Portfolio({ theme }) {
       </section>
       <motion.main initial={{ scale: 0.9 }} whileHover={{ scale: 1 }}>
         <a
-          href="https://www.upwork.com/freelancers/~01740dfbe3a78f08c8"
+          href="https://www.upwork.com/freelancers/~010260cfee91eda24e"
           target="_blank"
           initial={{ scale: 0.9 }}
           whileHover={{ scale: 1 }}
