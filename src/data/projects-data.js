@@ -3,6 +3,16 @@ import ecommerce from "../assets/ecommerce.png"
 import social from "../assets/social.png"
 
 const projectsData = [
+  
+  {
+    title: "Landing Page",
+    description:
+      "Simple landing page for a bank",
+    technologies: ["React","Node.js"],
+    imagePath: bank,
+    liveDemoLink: "https://custom-react.onrender.com/",
+    sourceCodeLink: "https://github.com/StevenMODIMO/bank-landing-page",
+  },
   {
     title: "E-commerce Website",
     description:
